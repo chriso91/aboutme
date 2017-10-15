@@ -1,0 +1,187 @@
+html, body{
+	background-image: url('whiteback.png');
+}
+
+.menubut{
+	padding: 10px;
+}
+
+.menubut:hover{
+	color: white;
+	cursor: hand;
+}
+
+#main{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 202% auto;
+}
+
+#main:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
+}
+
+#resume{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 202% auto;
+}
+
+#resume:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+}
+
+#misc{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 200.22% auto;
+}
+
+#misc:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+}
+
+
+.photo{
+	width: 25vw;	
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+	border-style: double;
+	margin: 20px 0 20px 0;
+}
+
+.col-xs-6{
+	text-align: center;
+}
+
+.titles{
+	font-family: 'Lobster';
+	font-size: 3vh;
+	color: black;
+}
+
+#calcdiv{
+	top: 20vh;
+	left: 15vw;
+}
+
+#weatherdiv{
+	top: 20vh;
+	left: 60vw;
+}
+
+#pomodorodiv{
+	top: 80vh;
+	left: 15vw;
+}
+
+#wikidiv{
+	top: 80vh;
+	left: 60vw;
+}
+
+#quotediv{
+	top: 142vh;
+	left: 15vw;
+}
+
+#ticdiv{
+	top: 142vh;
+	left: 60vw;
+}
+
+.divs{
+	position: absolute;
+	text-align: center;
+}
+
+.divs:hover{
+	color: black;
+}
+
+.desc{
+	width: 20vw;
+	font-size: 1.5vw;
+	position: absolute;
+	top: 8vh;
+	left:4vw;
+	font-weight: bold;
+	cursor: default;
+	color: black;
+}
+
+.desc{
+	cursor: pointer;
+}
+
+.menubut{
+	font-size: 20px;
+	font-family: 'Lobster';
+	color: black;
+	margin: 10px;
+}
+
+.menubut:hover{
+	text-decoration: none;
+}
+
+#menu{
+	font-size: 40px;
+	margin: 10px;
+}
+
+#menudiv{
+	top: 5vh;
+}
+
+#bottom{
+	position: absolute;
+	top: 200vh;
+	left: 10vw;
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#insta{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#insta:hover{
+	color: red;
+
+}
+
+#git{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#git:hover{
+	color: green;
+}
+
+#email{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#email:hover{
+	color: blue;
+}
+
+#icons{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+}
