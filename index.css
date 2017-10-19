@@ -23,6 +23,11 @@ html, body{
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
 }
 
+#main:after{
+	color: black;
+	font-style: none;
+}
+
 #resume{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
