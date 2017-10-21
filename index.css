@@ -141,7 +141,7 @@ html, body{
 
 #bottom{
 	position: absolute;
-	top: 200vh;
+	top: 100vw;
 	left: 10vw;
 	width: 80vw;
 	margin: 0 auto;
