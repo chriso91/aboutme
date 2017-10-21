@@ -3,19 +3,34 @@ html, body{
 }
 
 .menubut{
+	font-size: 20px;
+	font-family: 'Lobster';
+	margin: 10px;
+	color: black;
 	padding: 10px;
 }
 
 .menubut:hover{
+	text-decoration: none;
 	color: white;
 	cursor: hand;
+}
+
+#menu{
+	font-size: 40px;
+	margin: 10px;
+}
+
+#menudiv{
+	top: 30px;
+	text-align: right;
 }
 
 #main{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 202% auto;
+  	background-size: 204% auto;
 }
 
 #main:hover{
@@ -44,7 +59,7 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 200.22% auto;
+  	background-size: 204% auto;
 }
 
 #misc:hover{
@@ -68,37 +83,37 @@ html, body{
 
 .titles{
 	font-family: 'Lobster';
-	font-size: 3vh;
+	font-size: 2vw;
 	color: black;
 }
 
 #calcdiv{
-	top: 20vh;
+	top: 10vw;
 	left: 15vw;
 }
 
 #weatherdiv{
-	top: 20vh;
+	top: 10vw;
 	left: 60vw;
 }
 
 #pomodorodiv{
-	top: 80vh;
+	top: 40vw;
 	left: 15vw;
 }
 
 #wikidiv{
-	top: 80vh;
+	top: 40vw;
 	left: 60vw;
 }
 
 #quotediv{
-	top: 142vh;
+	top: 70vw;
 	left: 15vw;
 }
 
 #ticdiv{
-	top: 142vh;
+	top: 70vw;
 	left: 60vw;
 }
 
@@ -120,31 +135,9 @@ html, body{
 	font-weight: bold;
 	cursor: default;
 	color: black;
-}
-
-.desc{
 	cursor: pointer;
 }
 
-.menubut{
-	font-size: 20px;
-	font-family: 'Lobster';
-	color: black;
-	margin: 10px;
-}
-
-.menubut:hover{
-	text-decoration: none;
-}
-
-#menu{
-	font-size: 40px;
-	margin: 10px;
-}
-
-#menudiv{
-	top: 5vh;
-}
 
 #bottom{
 	position: absolute;
@@ -162,7 +155,6 @@ html, body{
 
 #insta:hover{
 	color: red;
-
 }
 
 #git{
