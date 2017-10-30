@@ -69,30 +69,26 @@ html, body{
 
 /*The div containing the picture and the about me text */
 #picandtext{
-	padding: 30px 10px 10px 10px;
-	max-width: 90vw;
+	width: 90vw;
 }
 
 /* My picture*/
 #mepic{
-	max-width: 500px;
-	border-radius: 50%;
+	width: 35vw;
 }
 
 /* The paragraphs about me */
 #abouttext{
-	font-size: 18px;
-	border-left: groove;
+	width: 40vw;
+	font-size: 1.2vw;
 	margin: 0;
-	padding: 0 0 0 50px;
+	padding: 10px 0 0 10px;
 }
 
 
 /*Bottom menu with icons */
 #bottom{
-	position: absolute;
-	top: 800px;
-	left: 10vw;
+	position: relative;
 	width: 80vw;
 	margin: 0 auto;
 }
