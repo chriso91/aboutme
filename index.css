@@ -34,7 +34,7 @@ html, body{
 }
 
 #main:hover{
-	background-position: -99.99% 0;
+	background-position: -98% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
 }
 
@@ -55,96 +55,52 @@ html, body{
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
 }
 
-#misc{
+#other{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
   	background-size: 204% auto;
 }
 
-#misc:hover{
-	background-position: -99.99% 0;
+#other:hover{
+	background-position: -98% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
 }
 
-
-.photo{
-	width: 25vw;	
-	border-radius: 10px;
-	border-color: black;
-	border-width: 5px;
-	border-style: double;
-	margin: 20px 0 20px 0;
+/*The div containing the picture and the about me text */
+#picandtext{
+	padding: 30px 10px 10px 10px;
+	max-width: 90vw;
 }
 
-.col-xs-6{
-	text-align: center;
+/* My picture*/
+#mepic{
+	max-width: 500px;
+	border-radius: 50%;
 }
 
-.titles{
-	font-family: 'Lobster';
-	font-size: 2vw;
-	color: black;
-}
-
-#calcdiv{
-	top: 10vw;
-	left: 15vw;
-}
-
-#weatherdiv{
-	top: 10vw;
-	left: 60vw;
-}
-
-#pomodorodiv{
-	top: 40vw;
-	left: 15vw;
-}
-
-#wikidiv{
-	top: 40vw;
-	left: 60vw;
-}
-
-#quotediv{
-	top: 70vw;
-	left: 15vw;
-}
-
-#ticdiv{
-	top: 70vw;
-	left: 60vw;
-}
-
-.divs{
-	position: absolute;
-	text-align: center;
-}
-
-.divs:hover{
-	color: black;
-}
-
-.desc{
-	width: 20vw;
-	font-size: 1.5vw;
-	position: absolute;
-	top: 8vh;
-	left:4vw;
-	font-weight: bold;
-	cursor: default;
-	color: black;
-	cursor: pointer;
+/* The paragraphs about me */
+#abouttext{
+	font-size: 18px;
+	border-left: groove;
+	margin: 0;
+	padding: 0 0 0 50px;
 }
 
 
+/*Bottom menu with icons */
 #bottom{
 	position: absolute;
-	top: 100vw;
+	top: 800px;
 	left: 10vw;
 	width: 80vw;
 	margin: 0 auto;
+}
+
+#icons{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #insta{
@@ -175,10 +131,4 @@ html, body{
 
 #email:hover{
 	color: blue;
-}
-
-#icons{
-	width: 30vw;
-	margin: 0 auto;
-	text-align: center;
 }
