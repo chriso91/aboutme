@@ -86,45 +86,44 @@ html, body{
 }
 
 
-/*Bottom menu with icons */
+/* Bottom */
 #bottom{
-	position: relative;
 	width: 80vw;
 	margin: 0 auto;
 }
 
-#icons{
+#iconmenu{
 	width: 30vw;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#insta{
-	font-size: 40px;
+#email{
+	font-size: 30px;
 	color: black;
 	text-align: center;
-}
-
-#insta:hover{
-	color: red;
 }
 
 #git{
-	font-size: 40px;
+	font-size: 30px;
 	color: black;
 	text-align: center;
+}
+
+#linkedin{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+#email:hover{
+	color: red;
 }
 
 #git:hover{
 	color: green;
 }
 
-#email{
-	font-size: 40px;
-	color: black;
-	text-align: center;
-}
-
-#email:hover{
+#linkedin:hover{
 	color: blue;
 }
